@@ -8,18 +8,18 @@ Kernel version:          6.14.0-37-generic
 Architecture:            x86_64
 Window Protocol:         Wayland (XWayland)
 Available memory:        15740 MB
-Date:                    2026-02-04T20:19:24Z
+Date:                    2026-02-06T18:05:23Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hibi-i-nova" at "2026-02-04T20:19:24.827293Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hibi-i-nova" at "2026-02-06T18:05:23.177649Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              d5cafe0b093e451890922d73c13dd8a0
-  Correlation Id:          aefb829ace777ebce64f91925b8ba436
-  External correlation Id: 7825648588831865983
+  Session Id:              408d5da9259943d6b2846fdfcb7a4f7b
+  Correlation Id:          37eb2dbb11cda9307d52bf3886bc08df
+  External correlation Id: 796199350159892159
   Machine Id:              vhgqj6D3HHXpuG7hyMP6Axe7bPo=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-hibi-i-nova" (connect: 0.00s, validation: 0.01s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hibi-i-nova-notifications" at "2026-02-04T20:19:24.832955Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hibi-i-nova-notifications" at "2026-02-06T18:05:23.188072Z"
 [Licensing::Module] Licensing Background thread has ended after 0.01s
 Selected window backend: (null) 
 Desktop is 1280 x 800 @ 60 Hz
@@ -37,7 +37,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-45353
+39731
 -licensingIpc
 LicenseClient-hibi-i-nova
 -job-worker-count
@@ -83,18 +83,18 @@ Successfully changed project path to: /home/hibi-i-nova/Documentos/unity/test 2 
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [135057427057472]  Target information:
+Player connection [133981790882624]  Target information:
 
-Player connection [135057427057472]  * "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 3029520189 [EditorId] 3029520189 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.108) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [133981790882624]  * "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 2741259724 [EditorId] 2741259724 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.108) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [135057427057472]  * "[IP] 192.168.1.213 [Port] 0 [Flags] 2 [Guid] 3029520189 [EditorId] 3029520189 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.108) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [133981790882624]  * "[IP] 192.168.1.213 [Port] 0 [Flags] 2 [Guid] 2741259724 [EditorId] 2741259724 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.108) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [135057427057472]  * "[IP] 172.18.0.1 [Port] 0 [Flags] 2 [Guid] 3029520189 [EditorId] 3029520189 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.108) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [133981790882624]  * "[IP] 172.18.0.1 [Port] 0 [Flags] 2 [Guid] 2741259724 [EditorId] 2741259724 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.108) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [135057427057472]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 3029520189 [EditorId] 3029520189 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.108) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [133981790882624]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 2741259724 [EditorId] 2741259724 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.108) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [135057427057472] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [135057427057472] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [133981790882624] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [133981790882624] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 1
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -106,7 +106,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1,70 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 3,45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 6000.3.5f1 (a1ec4b2f2d19)
 [Subsystems] Discovering subsystems at path /home/hibi-i-nova/Unity/Hub/Editor/6000.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -125,12 +125,12 @@ L_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_ob
 _10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT
 _texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL
 _NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 2141019376
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 506712992
 Initialize mono
 Mono path[0] = '/home/hibi-i-nova/Unity/Hub/Editor/6000.3.5f1/Editor/Data/Managed'
 Mono path[1] = '/home/hibi-i-nova/Unity/Hub/Editor/6000.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/hibi-i-nova/Unity/Hub/Editor/6000.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56985
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56839
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Trying to register platform support module: /home/hibi-i-nova/Unity/Hub/Editor/6000.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll (that doesn't exist). Retrying without overrides.
@@ -144,11 +144,11 @@ Register platform support module: /home/hibi-i-nova/Unity/Hub/Editor/6000.3.5f1/
   Expiration: Unlimited
 Register platform support module: /home/hibi-i-nova/Unity/Hub/Editor/6000.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /home/hibi-i-nova/Unity/Hub/Editor/6000.3.5f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,008329 seconds.
-- Loaded All Assemblies, in  0,921 seconds
+Registered in 0,004663 seconds.
+- Loaded All Assemblies, in  0,617 seconds
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 183 ms
+Android Extension - Scanning For ADB Devices 202 ms
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -156,35 +156,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1,043 seconds
-Domain Reload Profiling: 1964ms
-	BeginReloadAssembly (226ms)
+- Finished resetting the current domain, in  1,138 seconds
+Domain Reload Profiling: 1756ms
+	BeginReloadAssembly (128ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (135ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (122ms)
-	LoadAllAssembliesAndSetupDomain (415ms)
-		LoadAssemblies (227ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (307ms)
+		LoadAssemblies (128ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (405ms)
-			TypeCache.Refresh (402ms)
-				TypeCache.ScanAssembly (358ms)
+		AnalyzeDomain (300ms)
+			TypeCache.Refresh (298ms)
+				TypeCache.ScanAssembly (276ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1044ms)
+	FinalizeReload (1139ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (942ms)
+		SetupLoadedEditorAssemblies (1068ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (346ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (189ms)
-			ProcessInitializeOnLoadAttributes (257ms)
-			ProcessInitializeOnLoadMethodAttributes (139ms)
+			InitializePlatformSupportModulesInManaged (369ms)
+			SetLoadedEditorAssemblies (19ms)
+			BeforeProcessingInitializeOnLoad (259ms)
+			ProcessInitializeOnLoadAttributes (266ms)
+			ProcessInitializeOnLoadMethodAttributes (155ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -194,8 +194,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1,030 seconds
-Refreshing native plugins compatible for Editor in 0,69 ms, found 0 plugins.
+- Loaded All Assemblies, in  1,066 seconds
+Refreshing native plugins compatible for Editor in 0,48 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -204,34 +204,34 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1,017 seconds
-Domain Reload Profiling: 2046ms
-	BeginReloadAssembly (294ms)
+- Finished resetting the current domain, in  1,089 seconds
+Domain Reload Profiling: 2154ms
+	BeginReloadAssembly (298ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (93ms)
-	RebuildCommonClasses (57ms)
+		CreateAndSetChildDomain (113ms)
+	RebuildCommonClasses (60ms)
 	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (596ms)
-		LoadAssemblies (410ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (623ms)
+		LoadAssemblies (396ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (314ms)
-			TypeCache.Refresh (241ms)
-				TypeCache.ScanAssembly (218ms)
-			BuildScriptInfoCaches (62ms)
+		AnalyzeDomain (333ms)
+			TypeCache.Refresh (263ms)
+				TypeCache.ScanAssembly (240ms)
+			BuildScriptInfoCaches (60ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (1018ms)
+	FinalizeReload (1090ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (791ms)
+		SetupLoadedEditorAssemblies (868ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
+			InitializePlatformSupportModulesInManaged (16ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (194ms)
-			ProcessInitializeOnLoadAttributes (505ms)
+			BeforeProcessingInitializeOnLoad (314ms)
+			ProcessInitializeOnLoadAttributes (460ms)
 			ProcessInitializeOnLoadMethodAttributes (66ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
@@ -243,21 +243,21 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 3893 unused Assets / (2.3 MB). Loaded Objects now: 4478.
 Memory consumption went from 82.7 MB to 80.4 MB.
-Total: 14.285476 ms (FindLiveObjects: 0.603790 ms CreateObjectMapping: 0.464119 ms MarkObjects: 9.977985 ms  DeleteObjects: 3.238019 ms)
+Total: 14.906840 ms (FindLiveObjects: 0.701403 ms CreateObjectMapping: 0.510305 ms MarkObjects: 10.510445 ms  DeleteObjects: 3.182935 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 159.107220 seconds.
+  Time since last request: 295.810603 seconds.
   path: Assets/personaje.unity
   artifactKey: Guid(6ca2b775dff72caeda787629dac06c84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/personaje.unity using Guid(6ca2b775dff72caeda787629dac06c84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7f5a61bfa0b6fd3bfc50b326f5aedd58') in 0.080175363 seconds
+Start importing Assets/personaje.unity using Guid(6ca2b775dff72caeda787629dac06c84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '06bfeda032528946fcd9fd90699b4fc1') in 0.080508012 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2581.112485 seconds.
+  Time since last request: 607.976588 seconds.
   path: Assets/personaje.unity
   artifactKey: Guid(6ca2b775dff72caeda787629dac06c84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/personaje.unity using Guid(6ca2b775dff72caeda787629dac06c84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f8d7b4c77676dcc8b1d5ad895e0ef624') in 0.003020249 seconds
+Start importing Assets/personaje.unity using Guid(6ca2b775dff72caeda787629dac06c84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f198725ba7235ebd0737556bd1e623fd') in 0.011326837 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
